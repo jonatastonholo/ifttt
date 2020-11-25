@@ -15,7 +15,7 @@ function isDaytime() {
 }
 
 // Getthe current time
-let currentTime = Meta.currentUserTime;
+let currentTime = moment(Ewelink.wifiDoorSensorTrigger.CreatedAt);
 
 try{  
   // Parse the current time
